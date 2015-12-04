@@ -1,6 +1,6 @@
 # Gyou
 
-$B$R$i$,$J$NJ8;z$,2?9T$+$r<hF@$7$^$9!#(B
+ひらがなの文字が何行かを取得します。
 
 
 ## Installation
@@ -22,10 +22,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-gyou_sample = Gyou.get("$B$7(B")
-# gyou_sample = "$B$5(B"
-gyou_sample = Gyou.get("$B$9$:$-(B")
-# gyou_sample = "$B$5(B"
+gyou_sample = Gyou.get("し")
+# gyou_sample = "さ"
+gyou_sample = Gyou.get("すずき")
+# gyou_sample = "さ"
 ```
 
 ## Development
